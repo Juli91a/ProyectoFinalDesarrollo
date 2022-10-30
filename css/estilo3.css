@@ -1,0 +1,33 @@
+/* NAV */
+nav {
+  background-color: #FFDE00;
+}
+
+.nav-link {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.active {
+  background-color: black !important;
+  color: #FFDE00 !important;
+}
+
+/* BODY */
+body {
+  background-color: #ddd;
+
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.lista {
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
