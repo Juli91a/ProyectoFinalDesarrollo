@@ -1,6 +1,6 @@
 /* NAV */
 nav {
-  background-color: #FFDE00;
+  background-color: #FFCA03;
 }
 
 .nav-link {
@@ -12,7 +12,7 @@ nav {
 
 .active {
   background-color: black !important;
-  color: #FFDE00 !important;
+  color: #FFCA03 !important;
 }
 
 /* BODY */
@@ -31,6 +31,21 @@ h2 {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
+.texto {
+  font-family: 'Times New Roman', Times, serif;
+}
+.fondoPag {
+  margin: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: #FFCE45;
+  min-width: 570;
+}
+
 /*FOOTER*/
 footer {
   text-align: center;
@@ -47,4 +62,18 @@ footer {
   margin-right: 10%;
   height: 1px;
   margin-bottom: 1%;
+}
+
+/*Quienes somos*/
+.fotoQuienes {
+  text-align: center;
+}
+.fotoQuienes img{
+  width: 200px;
+  padding-bottom: 2%;
+}
+
+/*Nuestros Trabajos*/
+.col{
+  padding: 10px;
 }
