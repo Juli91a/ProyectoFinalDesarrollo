@@ -77,3 +77,11 @@ footer {
 .col{
   padding: 10px;
 }
+
+/*Sistema Constructivo*/
+.imagenSistema{
+  padding-left: 10%;
+}
+.imgSistema{
+  width: 80%;
+}
