@@ -11,6 +11,7 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilo3.css">
   <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
       <a class="flex-sm-fill text-sm-center nav-link" href="sistemaconstructivo.html">Sistemas constructivo</a>
       <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="nuestrosTrabajos.html">Nuestros
         Trabajos</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="contacto.html">Contacto</a>
+      <!-- <a class="flex-sm-fill text-sm-center nav-link" href="contacto.html">Contacto</a> -->
     </nav>
   </header>
   <h1 class="text-center">Enur en seco</h1>
@@ -32,40 +33,26 @@
       </p>
       <div class="container text-center">
         <div class="row">
-          <div class="col">
+          <div data-aos="fade-right" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 1">
           </div>
 
-          <div class="col">
+          <div data-aos="fade-left" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 2">
           </div>
 
-          <div class="col">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gTvqNOacsy0?controls=0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-          </div>
-
-          <div class="col">
+          <div data-aos="fade-right" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 3">
           </div>
 
-          <div class="col">
+          <div data-aos="fade-left" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 4">
           </div>
 
-          <div class="col">
+          <div data-aos="fade-right" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 5">
           </div>
-          
-          <div class="col">
-            <iframe class="videoGaleria" width="560" height="315" src="https://www.youtube.com/embed/gTvqNOacsy0?controls=0"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-          </div>
-          <div class="col">
+          <div data-aos="fade-left" class="col col-lg-6 col-xl-4">
             <img src="https://http2.mlstatic.com/D_NQ_NP_930310-MLA43752898345_102020-O.jpg" alt="imagen galeria 6">
           </div>      
         </div>
@@ -83,6 +70,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      delay:50
+    });
+  </script>
 </body>
 
 </html>

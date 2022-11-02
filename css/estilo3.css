@@ -10,9 +10,12 @@ nav {
   padding-right: 1%;
 }
 
-.active {
-  background-color: black !important;
-  color: #FFCA03 !important;
+.nav-pills {
+  --bs-nav-pills-link-active-color:#FFCA03;
+  --bs-nav-pills-link-active-bg: black;
+}
+:root {
+  --bs-link-hover-color: none;
 }
 
 /* BODY */
@@ -74,8 +77,9 @@ footer {
 }
 
 /*Nuestros Trabajos*/
-.col{
-  padding: 10px;
+.col img{
+  max-height: 95%;
+  margin-left: -2%;
 }
 
 /*Sistema Constructivo*/
@@ -84,4 +88,9 @@ footer {
 }
 .imgSistema{
   width: 80%;
+}
+
+/*CONTACTO*/
+form{
+  padding: 30px;
 }
