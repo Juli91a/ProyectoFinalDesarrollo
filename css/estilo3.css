@@ -46,7 +46,7 @@ h2 {
   border: solid black 2px;
   border-radius: 5px;
   background-color: #FFCE45;
-  min-width: 570;
+  
 }
 
 /*FOOTER*/
@@ -91,6 +91,28 @@ footer {
 }
 
 /*CONTACTO*/
-form{
-  padding: 30px;
+
+.aCompletar{
+  margin: 1%;
+  width: 90%;
+}
+.formulario textarea{
+  width: 90%;
+  height: auto;
+  margin: 1%;
+}
+.botones {
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.col ul{
+  margin-top: 2%;
+  list-style-type: none;
+}
+.col li{
+  text-align: left;
+  padding-top: 5%;
 }
