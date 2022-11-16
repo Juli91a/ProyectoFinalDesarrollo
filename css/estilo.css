@@ -1,0 +1,138 @@
+/*NAV*/
+nav {
+  background-color: #FFCA03;
+}
+
+.nav-link {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-color:#FFCA03;
+  --bs-nav-pills-link-active-bg:black ;
+}
+
+:root {
+  --bs-link-hover-color: none;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  padding: 2%;
+}
+
+.redes {
+  padding: 2%;
+  text-decoration: none;
+  color: black;
+}
+
+.lineaDivisoria {
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 1px;
+  margin-bottom: 1%;
+}
+
+.textoFoot {
+  font-weight: 500;
+  font-size: small;
+  text-align: left;
+  margin: 0;
+  margin-top: 2%;
+}
+
+/* BODY */
+body {
+  background-color: #ddd;
+}
+body h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.lista {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.texto {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.fondoPag {
+  margin: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: #FFCE45;
+  min-height: 300px;
+}
+
+/*Quienes somos*/
+.fotoQuienes {
+  text-align: center;
+}
+.fotoQuienes img {
+  width: 200px;
+  padding-bottom: 2%;
+}
+
+/*Nuestros Trabajos*/
+.col img {
+  max-height: 80%;
+  margin-left: -5%;
+}
+
+/*Sistema Constructivo*/
+.imagenSistema {
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+.imgSistema {
+  max-width: 90%;
+}
+
+/*CONTACTO*/
+.aCompletar, .formulario textarea {
+  margin: 1%;
+  width: 90%;
+}
+
+.formulario textarea {
+  height: auto;
+}
+
+.botones {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.col ul {
+  list-style-type: none;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2%;
+}
+.col ul li {
+  padding-bottom: 5%;
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

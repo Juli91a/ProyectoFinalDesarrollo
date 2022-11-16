@@ -1,0 +1,21 @@
+@import "var";
+/*NAV*/
+
+nav {
+    background-color:$colorPrincipal;
+  }
+  
+  .nav-link {
+    color:$colorSecundario;
+    font-family:$letraTexto;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .nav-pills {
+    --bs-nav-pills-link-active-color:#FFCA03;
+    --bs-nav-pills-link-active-bg:black
+  }
+  :root {
+    --bs-link-hover-color: none;
+  }

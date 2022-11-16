@@ -1,0 +1,10 @@
+$letraTexto:'Times New Roman', Times, serif;
+$colorPrincipal:#FFCA03;
+$colorSecundario:black;
+$colorBg: #ddd;
+
+@mixin tipoLista ($estilo, $alineado, $estiloLetra){
+    list-style-type: $estilo;
+    text-align: $alineado;
+    font-family: $estiloLetra;
+}

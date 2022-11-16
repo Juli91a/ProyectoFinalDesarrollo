@@ -1,0 +1,90 @@
+@import"nav","footer","var";
+
+
+/* BODY */
+body {
+    background-color: $colorBg;
+    h2{
+        font-family: $letraTexto;
+        text-align: center;
+    }
+}
+
+.lista {
+    @include tipoLista(none,center,$letraTexto)
+}
+
+.texto {
+    font-family: $letraTexto;
+}
+.fondoPag {
+    margin: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: #FFCE45; 
+    min-height: 300px;
+  }
+
+  /*Quienes somos*/
+
+.fotoQuienes {
+    text-align: center;
+  
+    img {
+      width: 200px;
+      padding-bottom: 2%;
+    }
+  }
+
+  /*Nuestros Trabajos*/
+
+.col img {
+    max-height: 80%;
+    margin-left: -5%;
+  }
+  
+  /*Sistema Constructivo*/
+  
+  .imagenSistema {
+    padding-left: 10%;
+    padding-bottom: 2%;
+  }
+  
+  .imgSistema {
+    max-width: 90%;
+  }
+
+  /*CONTACTO*/
+
+  .aCompletar {
+    margin: 1%;
+    width: 90%;
+  }
+  
+  .formulario textarea {
+    @extend .aCompletar;
+    height: auto;
+    
+  }
+  .botones {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .col ul {
+    @include tipoLista(none,center,$letraTexto);
+    margin-top: 2%;
+  
+   li {
+      padding-bottom: 5%;
+    }
+  }
+  @media (min-width: 1200px){
+    html{
+    font-size:1.5em
+  }
+  }
