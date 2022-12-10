@@ -93,10 +93,21 @@ body h2 {
   margin-left: -5%;
 }
 
+.contenedorGaleria {
+  padding: 1%;
+}
+.contenedorGaleria img {
+  max-width: 370px;
+  max-height: auto;
+  border: solid black 1px;
+}
+
 /*Sistema Constructivo*/
-.imagenSistema {
+.imgSistema {
   padding-left: 10%;
   padding-bottom: 2%;
+  max-height: 350px;
+  max-width: auto;
 }
 
 .imgSistema {
@@ -136,6 +147,13 @@ body h2 {
   .col ul {
     font-size: 1.5em;
   }
+}
+/*botoon Whatsapp*/
+.botonWhatsApp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
